@@ -8,7 +8,7 @@ const Home = () => {
         tristique viverra porta. Suspendisse volutpat odio sit amet metus
         semper, nec maximus felis ullamcorper
       </div>
-      <Link id="shopNow" to="/products" className="btn">
+      <Link id="shopNow" to="/products" className="btn btn-outline-dark">
         Shop now
       </Link>
     </div>
