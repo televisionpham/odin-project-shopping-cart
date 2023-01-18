@@ -1,6 +1,5 @@
-import Header from "./Header";
-import Home from "./Home";
-import Products from "./Products";
-import Cart from "./Cart";
+import Home from "./home/Home";
+import Products from "./products/Products";
+import Cart from "./cart/Cart";
 
-export { Header, Home, Products, Cart };
+export { Home, Products, Cart };
