@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  height: 5rem;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-link {
+  color: white;
+  padding: 0.5rem;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 1rem;
+}
+
+.home {
+  background-color: #fafafa;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#pageInfo {
+  width: 50%;
+  font-size: 2rem;
+  font-style: italic;
+  padding: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#shopNow {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  color: black;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
