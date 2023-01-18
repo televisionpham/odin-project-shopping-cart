@@ -3,7 +3,6 @@ a {
 }
 
 .nav-bar {
-  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +38,7 @@ a {
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 5rem);
   align-items: center;
   justify-content: center;
 }
@@ -54,4 +53,23 @@ a {
 #shopNow {
   margin: 2rem;
   font-size: 1.5rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product-card {
+  width: 300px;
+}
+
+.card-title {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
 }
