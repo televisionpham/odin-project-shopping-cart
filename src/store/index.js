@@ -1,4 +1,4 @@
 import store from "./store";
-import { addItem, removeItem } from "./cartSlice";
+import { addItem, removeItem, updateQuantity } from "./cartSlice";
 
-export { store, addItem, removeItem };
+export { store, addItem, removeItem, updateQuantity };
