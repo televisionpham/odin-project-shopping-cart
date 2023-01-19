@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/odin-project-shopping-cart/static/css/main.8a372066.css",
+    "main.js": "/odin-project-shopping-cart/static/js/main.4ebd0476.js",
+    "static/js/787.6179abe6.chunk.js": "/odin-project-shopping-cart/static/js/787.6179abe6.chunk.js",
+    "static/media/02.png": "/odin-project-shopping-cart/static/media/02.a6393336feba33ef0f20.png",
+    "static/media/05.png": "/odin-project-shopping-cart/static/media/05.898b44e03f5b75c0aa7b.png",
+    "static/media/06.png": "/odin-project-shopping-cart/static/media/06.ec418ebad2941b349396.png",
+    "static/media/04.jpg": "/odin-project-shopping-cart/static/media/04.d225389468c93973e2eb.jpg",
+    "static/media/03.jpg": "/odin-project-shopping-cart/static/media/03.138e594eb2b88b00259b.jpg",
+    "static/media/09.jpg": "/odin-project-shopping-cart/static/media/09.39d41059295af6b31d8d.jpg",
+    "static/media/12.jpg": "/odin-project-shopping-cart/static/media/12.19c0b3e716a4aaa04934.jpg",
+    "static/media/11.jpg": "/odin-project-shopping-cart/static/media/11.e0f99f2f008ef0f7b7cc.jpg",
+    "static/media/08.jpg": "/odin-project-shopping-cart/static/media/08.993b941eca893a7b9dbf.jpg",
+    "static/media/10.jpg": "/odin-project-shopping-cart/static/media/10.66ed133ce1a86ed4d499.jpg",
+    "static/media/01.png": "/odin-project-shopping-cart/static/media/01.7c49096afa76035c0988.png",
+    "index.html": "/odin-project-shopping-cart/index.html",
+    "main.8a372066.css.map": "/odin-project-shopping-cart/static/css/main.8a372066.css.map",
+    "main.4ebd0476.js.map": "/odin-project-shopping-cart/static/js/main.4ebd0476.js.map",
+    "787.6179abe6.chunk.js.map": "/odin-project-shopping-cart/static/js/787.6179abe6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a372066.css",
+    "static/js/main.4ebd0476.js"
+  ]
+}
