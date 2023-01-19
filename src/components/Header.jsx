@@ -15,7 +15,7 @@ const Header = () => {
         </Link>
         <Link className="nav-link" to="/cart">
           <i className="fa-solid fa-cart-shopping"></i>{" "}
-          <span className="badge badge-light">{cart.length}</span>
+          <span className="badge badge-light">{cart.reduce((total, x) => total + x.quantity, 0)}</span>
         </Link>
       </div>
     </header>

@@ -1,3 +1,4 @@
 import store from "./store";
+import { addItem, removeItem } from "./cartSlice";
 
-export { store };
+export { store, addItem, removeItem };

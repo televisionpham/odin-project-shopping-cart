@@ -1,8 +1,12 @@
+import { useDispatch } from "react-redux";
+import { addItem } from "../../store";
+
 const Product = (props) => {
   const { product } = props;
+  const dispatch = useDispatch();
 
   const handleAddToCart = () => {
-    console.log("add to cart", product);
+    dispatch(addItem({ product }));
   };
 
   return (

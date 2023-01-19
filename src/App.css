@@ -73,3 +73,15 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+#cart {
+  margin: 2rem;
+}
+
+.cart-item {
+  height: 10rem;
+}
+
+.cart-item > img {
+  width: 8rem;
+}
